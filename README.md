@@ -31,7 +31,7 @@ DB_PORT=5432
 
 ---
 
-# 🐳 Chạy Project Bằng Docker (Khuyến Nghị)
+# Chạy Project Bằng Docker (Khuyến Nghị)
 
 ## Bước 1: Build và chạy container
 docker-compose up --build
@@ -60,7 +60,7 @@ docker-compose down
 
 ---
 
-# 🗄 Tạo Database Thủ Công (Nếu Không Dùng Docker Compose)
+# Tạo Database Thủ Công (Nếu Không Dùng Docker Compose)
 
 Chạy PostgreSQL container:
 docker run --name air_quality_db
@@ -73,7 +73,7 @@ docker run --name air_quality_db
 
 ---
 
-# 🐍 Chạy Local Không Dùng Docker
+# Chạy Local Không Dùng Docker
 
 ## Bước 1: Tạo môi trường ảo
 python -m venv venv
@@ -96,7 +96,7 @@ python app/main.py
 
 ---
 
-# 🔄 Quy Trình Git
+# Quy Trình Git
 
 Khởi tạo repository:
 git init
@@ -114,7 +114,7 @@ git push -u origin main
 
 ---
 
-# 🧠 Giải Thích Kiến Trúc
+# Giải Thích Kiến Trúc
 
 ## main.py
 - Điểm bắt đầu của ứng dụng
